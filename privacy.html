@@ -1,116 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RoadTV — Privacy Policy</title>
-<style>
-  :root { color-scheme: dark; }
-  body { margin: 0 auto; padding: 32px 20px 64px; max-width: 46rem;
-         background: #0B1016; color: #E6EAEF;
-         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-  h1 { font-size: 1.9rem; margin: 0 0 4px; }
-  h2 { font-size: 1.15rem; margin: 32px 0 8px; color: #FFB300; }
-  p, li { color: #C7CED6; }
-  a { color: #22C3B4; }
-  .updated { color: #8A94A0; font-size: .9rem; margin-top: 0; }
-  hr { border: none; border-top: 1px solid rgba(255,255,255,.12); margin: 48px 0; }
-  [dir="rtl"] { text-align: right; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - RoadTV</title>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #0d0e12;
+      color: #e2e8f0;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #161821;
+      padding: 36px;
+      border-radius: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+    h1 { color: #ffffff; font-size: 28px; margin-bottom: 8px; }
+    h2 { color: #38bdf8; font-size: 20px; margin-top: 28px; }
+    p, li { color: #94a3b8; font-size: 15px; }
+    ul { padding-left: 20px; }
+    .updated { font-size: 13px; color: #64748b; margin-bottom: 24px; }
+    a { color: #38bdf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <div class="updated">Last updated: November 2026</div>
 
-<h1>RoadTV — Privacy Policy</h1>
-<p class="updated">Last updated: 2 November 2026</p>
+    <p>RoadTV ("we", "our", or "the app") is committed to protecting your privacy. This Privacy Policy explains our practices regarding user data, local storage, and service integration.</p>
 
-<p>RoadTV is a media player for your own playlists and media servers. It has no accounts,
-no analytics and no advertising network. We do not operate a server that receives your data.</p>
+    <h2>1. Information We Do Not Collect</h2>
+    <p>RoadTV does not collect, transmit, sell, or store any personal information on external servers. We do not use third-party tracking, analytics, or behavioral advertising SDKs.</p>
 
-<h2>What stays on your device</h2>
-<ul>
-  <li>Playlists, channels, favorites and protected-group settings you add.</li>
-  <li>Browser bookmarks and preferences.</li>
-  <li>Purchase state for RoadTV Pro, as reported by Apple.</li>
-</ul>
+    <h2>2. User Content & Local Data</h2>
+    <ul>
+      <li><strong>Playlists & Accounts:</strong> Playlist URLs (such as M3U files) and user credentials you provide are stored strictly locally on your device.</li>
+      <li><strong>OpenSubtitles API Key:</strong> Your personal API key is saved securely in your device's Keychain and is used solely to fetch subtitles requested by you.</li>
+      <li><strong>Media Streaming:</strong> RoadTV acts purely as a player. Streaming requests occur directly between your device and the media servers specified in your own playlists.</li>
+    </ul>
 
-<h2>What leaves your device, and where it goes</h2>
-<ul>
-  <li><strong>Your media sources.</strong> The app connects directly to the playlist URLs, media
-      servers and streams you configure. Those providers receive your requests under their own
-      privacy policies. RoadTV adds nothing to them.</li>
-  <li><strong>Websites you open in the browser.</strong> Pages load directly from those sites and
-      are subject to their policies. Site icons may be fetched from the site itself.</li>
-  <li><strong>iCloud sync (optional, off by default).</strong> When you enable it, your source list
-      is stored in your own iCloud account through Apple's key-value storage. We cannot read it.</li>
-  <li><strong>Your local network.</strong> Casting, the DLNA/UPnP receiver and playlist upload work
-      between devices on your Wi-Fi. Nothing is sent to us.</li>
-  <li><strong>Purchases.</strong> Subscriptions and the lifetime purchase are processed by Apple.
-      RoadTV never sees your payment details.</li>
-</ul>
+    <h2>3. iCloud Synchronization (Optional)</h2>
+    <p>If you enable iCloud Sync via RoadTV Pro, your playlist URLs and favorite channel identifiers are synchronized securely across your Apple devices using Apple's private CloudKit database. We have no access to your iCloud data or Apple ID credentials.</p>
 
-<h2>Tracking and advertising</h2>
-<p>RoadTV does not track you across apps or websites, shows no ads, and includes no analytics or
-advertising SDK. Pro's Ad-Shield blocks ads inside the app's browser on your device.</p>
+    <h2>4. In-App Purchases</h2>
+    <p>All subscription and lifetime purchases are processed directly by Apple through StoreKit. We do not process, receive, or store any financial details, credit card numbers, or billing addresses.</p>
 
-<h2>Screen mirroring</h2>
-<p>When you start screen mirroring, frames are passed between the app and its broadcast extension
-on your device only, and shown on your car display. They are not recorded or uploaded.</p>
-
-<h2>Children</h2>
-<p>RoadTV is not directed at children and does not knowingly collect information from them.</p>
-
-<h2>Your choices</h2>
-<p>Delete the app to remove everything stored on the device. Turn iCloud sync off in Settings to
-stop syncing, and delete RoadTV's iCloud data from your Apple account at any time.</p>
-
-<h2>Contact</h2>
-<p>Questions about this policy: <a href="mailto:hamany189@gmail.com">hamany189@gmail.com</a></p>
-
-<hr>
-
-<div dir="rtl" lang="ar">
-<h1>RoadTV — سياسة الخصوصية</h1>
-<p class="updated">آخر تحديث: ٢ نوفمبر ٢٠٢٦</p>
-
-<p>RoadTV مشغّل وسائط لقوائمك وخوادمك الخاصة. لا حسابات، ولا تحليلات، ولا شبكات إعلانات،
-ولا نملك خادماً يستقبل بياناتك.</p>
-
-<h2>ما يبقى على جهازك</h2>
-<ul>
-  <li>القوائم والقنوات والمفضّلة وإعدادات المجموعات المحمية.</li>
-  <li>علامات المتصفح وتفضيلاته.</li>
-  <li>حالة اشتراك RoadTV Pro كما تبلّغها Apple.</li>
-</ul>
-
-<h2>ما يغادر جهازك وإلى أين</h2>
-<ul>
-  <li><strong>مصادرك.</strong> يتصل التطبيق مباشرة بروابط القوائم والخوادم والبثوث التي تضيفها،
-      وتخضع تلك الجهات لسياسات الخصوصية الخاصة بها.</li>
-  <li><strong>المواقع التي تفتحها في المتصفح.</strong> تُحمَّل مباشرة من تلك المواقع وتخضع لسياساتها.</li>
-  <li><strong>مزامنة iCloud (اختيارية ومعطّلة افتراضياً).</strong> عند تفعيلها تُحفظ قائمة مصادرك في
-      حساب iCloud الخاص بك عبر تخزين Apple، ولا يمكننا قراءتها.</li>
-  <li><strong>شبكتك المحلية.</strong> البث والاستقبال ورفع القوائم تعمل بين أجهزتك على نفس الشبكة فقط.</li>
-  <li><strong>المشتريات.</strong> تعالجها Apple بالكامل، ولا يرى التطبيق بيانات الدفع.</li>
-</ul>
-
-<h2>التتبّع والإعلانات</h2>
-<p>لا يتتبّعك RoadTV عبر التطبيقات أو المواقع، ولا يعرض إعلانات، ولا يتضمّن أي حزمة تحليلات أو إعلانات.
-وحاجب الإعلانات في Pro يعمل داخل جهازك فقط.</p>
-
-<h2>مرآة الشاشة</h2>
-<p>عند تشغيل مرآة الشاشة تنتقل اللقطات بين التطبيق وامتداده على جهازك فقط وتُعرض على شاشة السيارة،
-ولا تُسجَّل ولا تُرفع.</p>
-
-<h2>الأطفال</h2>
-<p>التطبيق غير موجّه للأطفال ولا يجمع معلوماتهم عن قصد.</p>
-
-<h2>خياراتك</h2>
-<p>حذف التطبيق يزيل كل ما هو مخزّن على الجهاز. ويمكنك إيقاف مزامنة iCloud من الإعدادات وحذف بيانات
-RoadTV من حساب Apple في أي وقت.</p>
-
-<h2>التواصل</h2>
-<p>لأي سؤال عن هذي السياسة: <a href="mailto:hamany189@gmail.com">hamany189@gmail.com</a></p>
-</div>
-
+    <h2>5. Contact Us</h2>
+    <p>If you have any questions or concerns regarding this Privacy Policy, please contact us at: <a href="mailto:support@roadtv.app">support@roadtv.app</a></p>
+  </div>
 </body>
 </html>
